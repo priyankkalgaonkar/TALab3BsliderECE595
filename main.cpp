@@ -8,7 +8,7 @@ int main (void) {
     while(1) {
         value = pot;
         printf("Slide location %3.2f\n", value);
-        wait(0.5f);
+        wait_us(500000);
         led = !led;
     }
 }
